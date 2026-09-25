@@ -84,6 +84,20 @@ public:
         }
         return *this;
     }
+    int GetWidth() {
+        return width ; 
+    }
+    int GetHeight(){
+        return height ; 
+    }
+    int Getsize() const
+    {
+        return width * height;
+    }
+    T GetPixel_index(const int index) const
+    {
+        return data[index];
+    }
 
     T GetPixel(const int x, const int y, const int c = 0) const
     {
@@ -93,6 +107,10 @@ public:
     void SetPixel(const int x, const int y, const T& value, const int c = 0)
     {
         data[index(x, y, c)] = value;
+    }
+    void SetPixel_index(const int index, const T& value)
+    {
+        data[index] = value;
     }
 
     T* GetPtr(const int x, const int y)

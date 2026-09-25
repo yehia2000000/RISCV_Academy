@@ -20,7 +20,7 @@ TEST_P(AddTest, VectorizedMatchesReference)
     printf("[ %-7s %16s ]\n", "policy:",
            overFlowPolicy == OverFlowPolicy::SATURATE ? "SATURATE" : "WRAP");
 
-    Image<uint8_t> input0(width, height);
+    Image<uint8_t> input0(width, height);   
     Image<uint8_t> input1(width, height);
 
     Image<uint8_t> output_reference(width, height);

@@ -52,4 +52,8 @@ foreach(TEST_CASE_SOURCE ${TEST_CASE_SOURCES})
   target_link_libraries(${TEST_NAME}_qemu PRIVATE ${CMAKE_PROJECT_NAME}_qemu reference_qemu)
   unit_test_includes(${TEST_NAME}_qemu)
   riscv_add_qemu_run(${TEST_NAME}_qemu)
+  target_include_directories(${TEST_NAME}_gem5 PRIVATE ${CMAKE_SOURCE_DIR}/images)
+  target_include_directories(${TEST_NAME}_qemu PRIVATE ${CMAKE_SOURCE_DIR}/images)
 endforeach()
+file(COPY ${CMAKE_SOURCE_DIR}/images/
+     DESTINATION ${CMAKE_BINARY_DIR}/test/unit_test)
