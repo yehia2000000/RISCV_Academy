@@ -1,5 +1,6 @@
 #include "image_Add.hpp"
-
+#include <riscv_vector.h>
+#include <cassert>
 void ref::Add(const Image<uint8_t> &input1, 
               const Image<uint8_t> &input2, 
                     Image<uint8_t> &output, 

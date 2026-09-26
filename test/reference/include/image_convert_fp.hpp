@@ -3,7 +3,9 @@
 #define IN_MG_CONV_FP_H_
 
 #pragma once
+#include "image.hpp"
 #include "types.hpp"
+#include <cstdint>
 
 constexpr uint8_t WR = (uint8_t)(0.299f * 256) ; 
 constexpr uint8_t WG = (uint8_t) (0.587f * 256);

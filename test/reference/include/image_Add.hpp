@@ -1,6 +1,7 @@
 #pragma once
+#include "image.hpp"
 #include "types.hpp"
-
+#include <cstdint>
 namespace ref 
 {
     void Add(const Image<uint8_t>& input1, 

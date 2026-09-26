@@ -1,4 +1,3 @@
-
 #include "image_conv_rvv.hpp"
 #include <riscv_vector.h>
 
