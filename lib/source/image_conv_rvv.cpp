@@ -4,7 +4,7 @@
 void vec::image_conv_rvv(Image<uint8_t, ImageType::RGB>& Input,
                          Image<uint8_t, ImageType::GRAY>& Output)
 {
-    size_t n = Input.Getsize();          // لازم يكون عدد الـ pixels
+    size_t n = Input.Getsize();          
     const uint8_t* rgb  = Input.GetPtr(0, 0);
     uint8_t*       gray = Output.GetPtr(0, 0);
     size_t vl = __riscv_vsetvl_e8m2(n);
