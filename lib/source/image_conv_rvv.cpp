@@ -7,10 +7,8 @@ void vec::image_conv_rvv(Image<uint8_t, ImageType::RGB>& Input,
     size_t n = Input.Getsize();          
     const uint8_t* rgb  = Input.GetPtr(0, 0);
     uint8_t*       gray = Output.GetPtr(0, 0);
-    size_t vl = __riscv_vsetvl_e8m2(n);
-
-    for ( vl; n > 0; n -= vl, rgb += 3 * vl, gray += vl) {
-
+    for (size_t vl; n > 0; n -= vl, rgb += 3 * vl, gray += vl) {
+         vl  = __riscv_vsetvl_e8m2(n);
         vuint8m2x3_t px = __riscv_vlseg3e8_v_u8m2x3(rgb, vl);
         vuint8m2_t r = __riscv_vget_v_u8m2x3_u8m2(px, 0);
         vuint8m2_t g = __riscv_vget_v_u8m2x3_u8m2(px, 1);
