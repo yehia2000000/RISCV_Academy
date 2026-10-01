@@ -1,0 +1,2453 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Generic -  - riscv64
+      The host system is: Linux - 6.6.114.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-g++"
+    candidate_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-g++"
+      - "/usr/local/sbin/riscv64-linux-gnu-g++"
+      - "/usr/local/bin/riscv64-linux-gnu-g++"
+      - "/usr/sbin/riscv64-linux-gnu-g++"
+    found: "/usr/bin/riscv64-linux-gnu-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/riscv64-linux-gnu-g++ 
+      Build flags: -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt;-mabi=lp64d;-mcmodel=medany;-fno-pic;-static;-fdata-sections;-ffunction-sections;-fno-rtti;-fno-exceptions
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-ld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-dlltool"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-dlltool"
+      - "/usr/local/sbin/riscv64-linux-gnu-dlltool"
+      - "/usr/local/bin/riscv64-linux-gnu-dlltool"
+      - "/usr/sbin/riscv64-linux-gnu-dlltool"
+      - "/sbin/riscv64-linux-gnu-dlltool"
+      - "/bin/riscv64-linux-gnu-dlltool"
+      - "/usr/games/riscv64-linux-gnu-dlltool"
+      - "/usr/local/games/riscv64-linux-gnu-dlltool"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-dlltool"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-dlltool"
+      - "/snap/bin/riscv64-linux-gnu-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/lib/wsl/lib/dlltool"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/dlltool"
+      - "/mnt/c/WINDOWS/system32/dlltool"
+      - "/mnt/c/WINDOWS/dlltool"
+      - "/mnt/c/WINDOWS/System32/Wbem/dlltool"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/dlltool"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/dlltool"
+      - "/mnt/c/Program Files/dotnet/dlltool"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/dlltool"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/dlltool"
+      - "/mnt/c/Program Files/Git/cmd/dlltool"
+      - "/mnt/c/Program Files/nodejs/dlltool"
+      - "/mnt/c/Windows/SysWOW64/wbem/dlltool"
+      - "/mnt/c/Program Files/CMake/bin/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/dlltool"
+      - "/mnt/c/Users/yehia/.local/bin/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/dlltool"
+      - "/mnt/c/msys64/mingw64/bin/dlltool"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/dlltool"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/dlltool"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    found: "/usr/bin/riscv64-linux-gnu-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-tapi"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-tapi"
+      - "/usr/local/sbin/riscv64-linux-gnu-tapi"
+      - "/usr/local/bin/riscv64-linux-gnu-tapi"
+      - "/usr/sbin/riscv64-linux-gnu-tapi"
+      - "/sbin/riscv64-linux-gnu-tapi"
+      - "/bin/riscv64-linux-gnu-tapi"
+      - "/usr/games/riscv64-linux-gnu-tapi"
+      - "/usr/local/games/riscv64-linux-gnu-tapi"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-tapi"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-tapi"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-tapi"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-tapi"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-tapi"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-tapi"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-tapi"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-tapi"
+      - "/snap/bin/riscv64-linux-gnu-tapi"
+      - "/usr/bin/tapi"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/lib/wsl/lib/tapi"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/tapi"
+      - "/mnt/c/WINDOWS/system32/tapi"
+      - "/mnt/c/WINDOWS/tapi"
+      - "/mnt/c/WINDOWS/System32/Wbem/tapi"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/tapi"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/tapi"
+      - "/mnt/c/Program Files/dotnet/tapi"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/tapi"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/tapi"
+      - "/mnt/c/Program Files/Git/cmd/tapi"
+      - "/mnt/c/Program Files/nodejs/tapi"
+      - "/mnt/c/Windows/SysWOW64/wbem/tapi"
+      - "/mnt/c/Program Files/CMake/bin/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/tapi"
+      - "/mnt/c/Users/yehia/.local/bin/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/tapi"
+      - "/mnt/c/msys64/mingw64/bin/tapi"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/tapi"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/tapi"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/tapi"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-gcc-ar-15.2"
+      - "riscv64-linux-gnu-gcc-ar-15"
+      - "riscv64-linux-gnu-gcc-ar15"
+      - "riscv64-linux-gnu-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/games/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/games/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/snap/bin/riscv64-linux-gnu-gcc-ar-15.2"
+    found: "/usr/bin/riscv64-linux-gnu-gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "riscv64-linux-gnu-gcc-ranlib-15"
+      - "riscv64-linux-gnu-gcc-ranlib15"
+      - "riscv64-linux-gnu-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/games/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/games/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/snap/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+    found: "/usr/bin/riscv64-linux-gnu-gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN"
+      binary: "/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_072cb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_072cb.dir/build.make CMakeFiles/cmTC_072cb.dir/build
+        gmake[1]: Entering directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN'
+        Building CXX object CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/riscv64-linux-gnu-g++   -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions    -v -o CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/riscv64-linux-gnu-g++
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-werror --disable-multilib --with-abi=lp64d --with-arch=rv64i_m_a_f_d_c_b_v_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbs_zkt_zvbb_zve32f_zve32x_zve64d_zve64f_zve64x_zvfhmin_zvkb_zvkt_zvl128b_zvl32b_zvl64b_supm --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=riscv64-linux-gnu --program-prefix=riscv64-linux-gnu- --includedir=/usr/riscv64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/'
+         /usr/libexec/gcc-cross/riscv64-linux-gnu/15/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_072cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fno-pic -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fstack-protector-strong -Wformat -Wformat-security -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3QaXG8.s
+        GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/include/riscv64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu/.
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/backward
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/include
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: baa8d2e8546c3edcd47c4619f654bb74
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/'
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/as -v --traditional-format -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc3QaXG8.s
+        GNU assembler version 2.46 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/lib/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_072cb.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_072cb.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_072cb.dir/link.txt --verbose=1
+        riscv64-linux-gnu-ar qc libcmTC_072cb.a CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/riscv64-linux-gnu-ranlib libcmTC_072cb.a
+        gmake[1]: Leaving directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15]
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu/.]
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/backward]
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15] ==> [/usr/riscv64-linux-gnu/include/c++/15]
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu/.] ==> [/usr/riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu]
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/backward] ==> [/usr/riscv64-linux-gnu/include/c++/15/backward]
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include] ==> [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include] ==> [/usr/riscv64-linux-gnu/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/riscv64-linux-gnu/include/c++/15;/usr/riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu;/usr/riscv64-linux-gnu/include/c++/15/backward;/usr/lib/gcc-cross/riscv64-linux-gnu/15/include;/usr/riscv64-linux-gnu/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_072cb/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_072cb.dir/build.make CMakeFiles/cmTC_072cb.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN']
+        ignore line: [Building CXX object CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/riscv64-linux-gnu-g++   -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions    -v -o CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/riscv64-linux-gnu-g++]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-werror --disable-multilib --with-abi=lp64d --with-arch=rv64i_m_a_f_d_c_b_v_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbs_zkt_zvbb_zve32f_zve32x_zve64d_zve64f_zve64x_zvfhmin_zvkb_zvkt_zvl128b_zvl32b_zvl64b_supm --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=riscv64-linux-gnu --program-prefix=riscv64-linux-gnu- --includedir=/usr/riscv64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/']
+        ignore line: [ /usr/libexec/gcc-cross/riscv64-linux-gnu/15/cc1plus -quiet -v -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_072cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fno-pic -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fstack-protector-strong -Wformat -Wformat-security -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3QaXG8.s]
+        ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (riscv64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/include/riscv64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/riscv64-linux-gnu/.]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include/c++/15/backward]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: baa8d2e8546c3edcd47c4619f654bb74]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/']
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/as -v --traditional-format -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc3QaXG8.s]
+        ignore line: [GNU assembler version 2.46 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/lib/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-fno-rtti' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_072cb.a]
+        ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_072cb.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_072cb.dir/link.txt --verbose=1]
+        ignore line: [riscv64-linux-gnu-ar qc libcmTC_072cb.a CMakeFiles/cmTC_072cb.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/riscv64-linux-gnu-ranlib libcmTC_072cb.a]
+        ignore line: [gmake[1]: Leaving directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-02JXJN']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:51 (find_program)"
+    mode: "program"
+    variable: "QEMU_BINARY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "qemu-riscv64"
+      - "qemu-riscv64-static"
+    candidate_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/qemu-riscv64"
+      - "/usr/local/sbin/qemu-riscv64"
+      - "/usr/local/bin/qemu-riscv64"
+      - "/usr/sbin/qemu-riscv64"
+    found: "/usr/bin/qemu-riscv64"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-gcc"
+    candidate_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-gcc"
+      - "/usr/local/sbin/riscv64-linux-gnu-gcc"
+      - "/usr/local/bin/riscv64-linux-gnu-gcc"
+      - "/usr/sbin/riscv64-linux-gnu-gcc"
+    found: "/usr/bin/riscv64-linux-gnu-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/riscv64-linux-gnu-gcc 
+      Build flags: -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt;-mabi=lp64d;-mcmodel=medany;-fno-pic;-static;-fdata-sections;-ffunction-sections
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-gcc-ar-15.2"
+      - "riscv64-linux-gnu-gcc-ar-15"
+      - "riscv64-linux-gnu-gcc-ar15"
+      - "riscv64-linux-gnu-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/sbin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/games/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/local/games/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-gcc-ar-15.2"
+      - "/snap/bin/riscv64-linux-gnu-gcc-ar-15.2"
+    found: "/usr/bin/riscv64-linux-gnu-gcc-ar-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "riscv64-linux-gnu-gcc-ranlib-15"
+      - "riscv64-linux-gnu-gcc-ranlib15"
+      - "riscv64-linux-gnu-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/"
+      - "/mnt/c/WINDOWS/system32/"
+      - "/mnt/c/WINDOWS/"
+      - "/mnt/c/WINDOWS/System32/Wbem/"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/"
+      - "/mnt/c/Program Files/Git/cmd/"
+      - "/mnt/c/Program Files/nodejs/"
+      - "/mnt/c/Windows/SysWOW64/wbem/"
+      - "/mnt/c/Program Files/CMake/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+      - "/mnt/c/Users/yehia/.local/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/"
+      - "/mnt/c/msys64/mingw64/bin/"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/usr/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/home/yehia/.nvm/versions/node/v24.21.0/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/sbin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/games/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/local/games/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/usr/lib/wsl/lib/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/system32/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/Wbem/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/WINDOWS/System32/OpenSSH/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/dotnet/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/MATLAB/R2024b/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Git/cmd/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/nodejs/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Windows/SysWOW64/wbem/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/CMake/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/.local/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/msys64/mingw64/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Roaming/npm/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+      - "/snap/bin/riscv64-linux-gnu-gcc-ranlib-15.2"
+    found: "/usr/bin/riscv64-linux-gnu-gcc-ranlib-15"
+    search_context:
+      ENV{PATH}:
+        - "/home/yehia/.nvm/versions/node/v24.21.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.7.3.0_x64__8wekyb3d8bbwe"
+        - "/mnt/c/WINDOWS/system32"
+        - "/mnt/c/WINDOWS"
+        - "/mnt/c/WINDOWS/System32/Wbem"
+        - "/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "/mnt/c/WINDOWS/System32/OpenSSH/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files/MATLAB/R2024b/runtime/win64"
+        - "/mnt/c/Program Files/MATLAB/R2024b/bin"
+        - "/mnt/c/Program Files/Git/cmd"
+        - "/mnt/c/Program Files/nodejs/"
+        - "/mnt/c/Windows/SysWOW64/wbem"
+        - "/mnt/c/Program Files/CMake/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/Scripts/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Python314/"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Python/Launcher/"
+        - "/mnt/c/Users/yehia/.local/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WindowsApps"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Programs/Ollama"
+        - "/mnt/c/msys64/mingw64/bin"
+        - "/mnt/f/ffpmeg/ffmpeg-2026-07-13-git-9c2aabaa34-full_build/bin"
+        - "/mnt/c/Users/yehia/AppData/Roaming/npm"
+        - "/mnt/f/IntelliJ IDEA 2026.2.0.1/bin"
+        - "/mnt/c/Users/yehia/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0"
+      binary: "/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13391/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_13391.dir/build.make CMakeFiles/cmTC_13391.dir/build
+        gmake[1]: Entering directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0'
+        Building C object CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/riscv64-linux-gnu-gcc   -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections    -v -o CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/riscv64-linux-gnu-gcc
+        Target: riscv64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,cobol,algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-werror --disable-multilib --with-abi=lp64d --with-arch=rv64i_m_a_f_d_c_b_v_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbs_zkt_zvbb_zve32f_zve32x_zve64d_zve64f_zve64x_zvfhmin_zvkb_zvkt_zvl128b_zvl32b_zvl64b_supm --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=riscv64-linux-gnu --program-prefix=riscv64-linux-gnu- --includedir=/usr/riscv64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/'
+         /usr/libexec/gcc-cross/riscv64-linux-gnu/15/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13391.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fno-pic -fdata-sections -ffunction-sections -fstack-protector-strong -Wformat -Wformat-security -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc2z7HAT.s
+        GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (riscv64-linux-gnu)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed/riscv64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed"
+        ignoring nonexistent directory "/usr/include/riscv64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/include
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: d46628df3ea7770c12ed78ed2c40cebd
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/'
+         /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/as -v --traditional-format -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj /tmp/cc2z7HAT.s
+        GNU assembler version 2.46 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
+        COMPILER_PATH=/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/
+        LIBRARY_PATH=/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/lib/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_13391.a
+        /usr/bin/cmake -P CMakeFiles/cmTC_13391.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13391.dir/link.txt --verbose=1
+        riscv64-linux-gnu-ar qc libcmTC_13391.a CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/riscv64-linux-gnu-ranlib libcmTC_13391.a
+        gmake[1]: Leaving directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+          add: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include] ==> [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+        collapse include dir [/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include] ==> [/usr/riscv64-linux-gnu/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc-cross/riscv64-linux-gnu/15/include;/usr/riscv64-linux-gnu/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "test/reference/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13391/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_13391.dir/build.make CMakeFiles/cmTC_13391.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0']
+        ignore line: [Building C object CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/riscv64-linux-gnu-gcc   -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -fno-pic -static     -fdata-sections -ffunction-sections    -v -o CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/riscv64-linux-gnu-gcc]
+        ignore line: [Target: riscv64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 15.2.0-16ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-15/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 cobol algol68 --prefix=/usr --with-gcc-major-version-only --program-suffix=-15 --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --without-target-system-zlib --enable-multiarch --disable-werror --disable-multilib --with-abi=lp64d --with-arch=rv64i_m_a_f_d_c_b_v_zic64b_zicbom_zicbop_zicboz_ziccamoa_ziccif_zicclsm_ziccrse_zicntr_zicond_zicsr_zifencei_zihintntl_zihintpause_zihpm_zimop_zmmul_za64rs_zaamo_zalrsc_zawrs_zfa_zfhmin_zca_zcb_zcd_zcmop_zba_zbb_zbs_zkt_zvbb_zve32f_zve32x_zve64d_zve64f_zve64x_zvfhmin_zvkb_zvkt_zvl128b_zvl32b_zvl64b_supm --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=riscv64-linux-gnu --program-prefix=riscv64-linux-gnu- --includedir=/usr/riscv64-linux-gnu/include --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/']
+        ignore line: [ /usr/libexec/gcc-cross/riscv64-linux-gnu/15/cc1 -quiet -v -imultilib . -imultiarch riscv64-linux-gnu /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13391.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -mabi=lp64d -mcmodel=medany -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fno-pic -fdata-sections -ffunction-sections -fstack-protector-strong -Wformat -Wformat-security -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc2z7HAT.s]
+        ignore line: [GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (riscv64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed/riscv64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc-cross/riscv64-linux-gnu/15/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/include/riscv64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/include]
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d46628df3ea7770c12ed78ed2c40cebd]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/']
+        ignore line: [ /usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/as -v --traditional-format -march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt -march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj /tmp/cc2z7HAT.s]
+        ignore line: [GNU assembler version 2.46 (riscv64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/15/:/usr/libexec/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc-cross/riscv64-linux-gnu/15/:/usr/lib/gcc-cross/riscv64-linux-gnu/15/../../../../riscv64-linux-gnu/lib/:/lib/riscv64-linux-gnu/:/lib/:/usr/lib/riscv64-linux-gnu/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=rv64gcv_zba_zbb_zbc_zbs_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh_zkt' '-mabi=lp64d' '-mcmodel=medany' '-fno-pic' '-static' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcbv_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zba_zbb_zbc_zbkb_zbkc_zbkx_zbs_zkn_zknd_zkne_zknh_zkr_zks_zksed_zksh_zkt_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_13391.a]
+        ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_13391.dir/cmake_clean_target.cmake]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13391.dir/link.txt --verbose=1]
+        ignore line: [riscv64-linux-gnu-ar qc libcmTC_13391.a CMakeFiles/cmTC_13391.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/riscv64-linux-gnu-ranlib libcmTC_13391.a]
+        ignore line: [gmake[1]: Leaving directory '/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/CMakeFiles/CMakeScratch/TryCompile-kPXTY0']
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

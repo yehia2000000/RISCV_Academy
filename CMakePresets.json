@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "xs",
+      "displayName": "RISC-V XS (riscv64-xs toolchain)",
+      "binaryDir": "${sourceDir}/build",
+      "toolchainFile": "${sourceDir}/cmake/riscv64_xs_toolchain.cmake",
+      "cacheVariables": {
+        "GEM5_HOME": "$env{HOME}/riscv/GEM5",
+        "NEXUS_AM_HOME": "$env{HOME}/nexus-am"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "xs",
+      "displayName": "Build all",
+      "configurePreset": "xs"
+    },
+    {
+      "name": "image-filter-test-qemu",
+      "displayName": "Run image_filter_test on QEMU",
+      "configurePreset": "xs",
+      "targets": ["run_image_filter_test_qemu"]
+    }
+  ]
+}

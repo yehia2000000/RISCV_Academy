@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/lib/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/test/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/test/reference/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/test/unit_test/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/benchmark/cmake_install.cmake",
+		"/home/yehia/nexus-am/apps/blur/RISCV_Academy/build/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

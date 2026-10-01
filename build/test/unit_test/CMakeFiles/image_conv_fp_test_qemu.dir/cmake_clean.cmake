@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/image_conv_fp_test_qemu.dir/source/image_conv_fp_test.cpp.obj"
+  "CMakeFiles/image_conv_fp_test_qemu.dir/source/image_conv_fp_test.cpp.obj.d"
+  "CMakeFiles/image_conv_fp_test_qemu.dir/source/unit_tests.cpp.obj"
+  "CMakeFiles/image_conv_fp_test_qemu.dir/source/unit_tests.cpp.obj.d"
+  "image_conv_fp_test_qemu"
+  "image_conv_fp_test_qemu.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/image_conv_fp_test_qemu.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

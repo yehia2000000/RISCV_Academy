@@ -1,0 +1,2 @@
+riscv64-linux-gnu-ar qc libreference_qemu.a CMakeFiles/reference_qemu.dir/source/image_Add.cpp.obj CMakeFiles/reference_qemu.dir/source/image_filter.cpp.obj
+/usr/bin/riscv64-linux-gnu-ranlib libreference_qemu.a

@@ -1,0 +1,2 @@
+riscv64-linux-gnu-ar qc libRISCV_CV_qemu.a CMakeFiles/RISCV_CV_qemu.dir/source/image.cpp.obj CMakeFiles/RISCV_CV_qemu.dir/source/image_Add.cpp.obj CMakeFiles/RISCV_CV_qemu.dir/source/image_blur_rvv.cpp.obj CMakeFiles/RISCV_CV_qemu.dir/source/riscv_runtime.cpp.obj
+/usr/bin/riscv64-linux-gnu-ranlib libRISCV_CV_qemu.a
