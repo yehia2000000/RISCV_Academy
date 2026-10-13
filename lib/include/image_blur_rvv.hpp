@@ -7,8 +7,8 @@
 #include <cstdint>
 
 namespace vec {
-void blur3x3_rvv(Image<uint8_t, ImageType::GRAY>& Input,
-                 Image<uint8_t, ImageType::GRAY>& Output);
+void blur_rvv(const Image<uint8_t, ImageType::GRAY>& Input,
+                   Image<uint8_t, ImageType::GRAY>& Output, int k);
 }
 
 #endif

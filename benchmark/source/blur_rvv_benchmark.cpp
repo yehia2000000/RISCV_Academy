@@ -28,22 +28,22 @@ int main (){
 
     input0.Read(width ,height, image1_data );
 
-    Kernel<3> ker = { {1, 1, 1,
-                       1, 1, 1,
-                       1, 1, 1} };
+    int  ksize = 5 ; 
+    int  pad = ksize/2 ; 
+    
 
-    Image<uint8_t, ImageType::GRAY> Padded =input0.MakeBorder(1,BorderType::CONSTANT,0) ;
-
-
+    Image<uint8_t, ImageType::GRAY> padded(width + 2 * pad, height + 2 * pad);
+        
     
     for (int i=0 ; i<loop_count;i++){
         Timer timer_sc , timer_vec ; 
         timer_sc.Start(); 
-        ref::Image_filter(input0, output_reference, ker, BorderType::CONSTANT, 0);
+        ref::Blur(input0, output_reference, ksize, BorderType::CONSTANT, 0);
         timer_sc.Stop(); 
 
         timer_vec.Start();
-        vec::blur3x3_rvv(Padded,output_vectorized);
+        input0.MakeBorder(padded, pad, BorderType::CONSTANT, 0);
+        vec::blur_rvv(padded,output_vectorized,ksize);
         timer_vec.Stop();
 
         ref_cycles += timer_sc.ElapsedCycles();
